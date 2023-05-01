@@ -46,7 +46,7 @@ input.addEventListener("keypress", async function (event) {
 });
 
 function getCurrentWeather(long, lat) {
-  return fetch(`http://api.openweathermap.org/geo/1.0/reverse?lat=${lat}&lon=${long}&limit=5&appid=4458d17046c313f333e7df759c7a061a`)
+  return fetch(`http://api.openweathermap.org/geo/1.0/reverse?lat=${lat}&lon=${long}&appid=4458d17046c313f333e7df759c7a061a`)
     .then((response) => response.json())
     .then((response) => response);
 }
