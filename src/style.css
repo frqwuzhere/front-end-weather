@@ -121,6 +121,8 @@ article {
 }
 
 .location-desc {
+  display: flex;
+  max-inline-size: 15rem;
   font-size: 2rem;
 }
 
